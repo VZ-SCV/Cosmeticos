@@ -2,6 +2,7 @@
 :root {
   --black:#000000;
   --white: #FFFFFF;
+  --green: #4ec24e;
   --very-light-pink: #e741a2;
   --text-input-field: #dcc8df;
   --rosita: #ffe0e9;
@@ -263,8 +264,9 @@ aside {
 }
 
 .title-container img {
-  transform: rotate(180deg);
+  transform: rotate(360deg);
   margin-right: 14px;
+  
 }
 
 .title {
@@ -387,7 +389,7 @@ aside {
 /* Detalles de productos */
 
 .product-detail-close {
-  background: var(--rosita);
+  background: var(--very-light-pink);
   width: 14px;
   height: 14px;
   position: absolute;
@@ -449,10 +451,10 @@ aside>img:nth-child(2) {
 
 /* Buttons configuration styles*/
 .primary-button {
-  background-color: var(--hospital-green);
+  background-color: var(--green);
   border-radius: 8px;
   border: none;
-  color: var(--white);
+  color: var(--black);
   width: 100%;
   cursor: pointer;
   font-size: var(--md);

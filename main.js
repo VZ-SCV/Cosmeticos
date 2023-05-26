@@ -26,42 +26,42 @@ const products = [
         id: 12,
         price: 487.99,
         name: "Hidratante",
-        description: "",
+        description: "Productos especiales que ayuden a renovar las células epidérmicas y el manto hidrolipídico.",
         src: "https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         id: 11,
         price: 99.99,
         name: "Loción",
-        description: "",
+        description: "La loción corporal es un producto de consistencia más líquida y fluida.",
         src: "https://images.pexels.com/photos/3762882/pexels-photo-3762882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         id: 10,
         price: 478.99,
         name: "Base",
-        description: "",
+        description: "La base de maquillaje es un producto elaborado para tapar y corregir imperfecciones de la piel.",
         src: "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         id: 9,
         price: 248.99,
-        name: "Desmaquillante",
-        description: "",
+        name: "Agua Miselar",
+        description: "Es un producto hecho específicamente para retirar el maquillaje de tu piel de forma eficaz.",
         src: "https://media.istockphoto.com/id/596814774/es/foto/t%C3%B3nico-facial.jpg?b=1&s=612x612&w=0&k=20&c=Qvowndf-bin6zwSWJKk_AXJWm7oqtjHPWo4pzVpUV1s="
     },
     {
         id: 8,
         price: 112.99,
         name: "Labial y sombra",
-        description: "",
+        description: "Los clásicos labiales van desde los tonos más neutros hasta los más brillantes.",
         src: "https://images.pexels.com/photos/4735904/pexels-photo-4735904.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         id: 7,
         price: 567.99,
-        name: "Rizador y labial",
-        description: "",
+        name: "Rimmel y labial",
+        description: "El rimel prosa clásico es indispensable en tu cosmetiquera.",
         src: "https://images.pexels.com/photos/2633986/pexels-photo-2633986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
