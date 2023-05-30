@@ -1,3 +1,6 @@
+//import Swal from "sweetalert2";
+
+
 const navbarEmail = document.querySelector('.navbar-email'); // Email en forma de texto que despliega el menu en version desktop
 const desktopMenu = document.querySelector('.desktop-menu');
 const navbarMobile = document.querySelector('.menu'); // Imagen en el navbar que despliega el menu en version mobile
@@ -291,8 +294,11 @@ function addProductToShoppingCart(e) {
         
         //Agregar la tarjeta con los datos del producto al carrito de compras como tal
         orderContent.appendChild(shoppingCart);
+       
         
         updateShoppingCartTotal(); //Actualiza los datos del carrito 
+        alert("¡Usted a agregado un nuevo articulo al carrito!");
+        
 }
 
 displayProducts(products);
