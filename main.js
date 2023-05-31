@@ -23,6 +23,8 @@ const productDetailName = document.querySelector('.product-name');
 const productDetailDescription = document.querySelector('.product-description');
 const productDetailAddToCart = document.querySelector('.add-to-cart-button');
 
+const Cash = document.querySelector('.primary-button');
+
 // Lista de productos, las propiedades de cada uno de ellos son > {name, price, src}
 const products = [
     {
@@ -118,6 +120,12 @@ navbarMobile.addEventListener('click', toggleMobileMenu);
 navbarShoppingCart.addEventListener('click', toggleShoppingCart);
 productDetailClose.addEventListener('click', closeProductDetail);
 productDetailAddToCart.addEventListener('click', addProductToShoppingCart);
+
+Cash.addEventListener('click', ShoppingCash);
+
+function ShoppingCash(){
+    alert("¡Gracias por agregar productos :!\nTodavia nos falta trabajar más en la app\n¡Saludos Zoila y Vianey!");
+}
 
 function closeComponentsToDisplayMenu() {
     const isShoppingCartOpen = !shoppingCart.classList.contains('inactive');
